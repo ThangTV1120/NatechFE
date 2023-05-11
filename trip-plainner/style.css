@@ -5,24 +5,26 @@
 }
 
 .top {
-    display         : flex;
-    flex-direction  : column;
-    justify-content : center;
-    align-items     : center;
-    padding         : 30px 60px;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+    padding        : 30px 60px;
+    border-bottom  : 1px solid black;
 }
 
 .content {
-    height          : 30px;
-    width           : 920px;
-    display         : flex;
-    flex-direction  : row;
-    justify-content : space-between;
-    align-items     : center;
-    padding         : 8px 10px;
-    padding-left    : 30px;
-    padding-right   : 50px;
-    position: absolute;
+    height         : 30px;
+    width          : 920px;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    align-items    : center;
+    padding        : 8px 10px;
+    padding-left   : 30px;
+    padding-right  : 50px;
+    position       : absolute;
+    border         : 1px solid black;
 }
 
 .logo {
@@ -80,8 +82,8 @@
     border-radius: 30px;
 }
 
-#r--tb{
-    width: 20px;
+#r--tb {
+    width : 20px;
     height: 20px;
 }
 
@@ -92,5 +94,5 @@
 
 #gach {
     font-size: 30px;
-    opacity: 0.5;
+    opacity  : 0.5;
 }
