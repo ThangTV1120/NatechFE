@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+.content {
+  display: flex;
+  padding: 28px 40px;
+  gap: 10px;
+  justify-content: space-around;
+  background: #23262F;
+  box-shadow: 0px 6px 30px 0px rgba(15, 15, 15, 0.0588235294);
+}
+.content .menu_logo {
+  width: 120.24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .menu_logo .logo_icon {
+  width: 40.24px;
+  height: 40.17px;
+}
+.content .menu_logo .title {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 800;
+  text-align: center;
+  color: #FFFFFF;
+}
+.content .menu_booking {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  background: #23262F;
+  border: 1px solid #353945;
+  box-shadow: 0px 12px 64px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+.content .menu_booking li {
+  margin-left: 10px;
+  color: #B1B5C4;
+  list-style: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 25px;
+}
+.content .menu_booking .logo_icon {
+  background: #3B71FE;
+  border-radius: 14px;
+  margin-left: 10px;
+  margin-top: 5px;
+  padding: 6px;
+}
+.content .menu_booking .nav_item2,
+.content .menu_booking .nav_item1 {
+  position: relative;
+}
+.content .menu_booking .nav_item2::after,
+.content .menu_booking .nav_item1::after {
+  content: "";
+  width: 2px;
+  height: 28px;
+  background: #777E90;
+  position: absolute;
+  right: -7px;
+  top: 45%;
+  transform: translateY(-50%);
+}
+.content .menu_user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .menu_user li {
+  list-style: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 25px;
+  margin-left: 10px;
+  color: #FFFFFF;
+}
+.content .menu_user li .bell {
+  padding: 5px;
+  margin-top: 10px;
+}
+.content .menu_user .img_user {
+  position: relative;
+}
+.content .menu_user .img_user .user {
+  margin-left: 8px;
+}
+.content .menu_user .img_user::after {
+  content: "";
+  width: 1px;
+  height: 32px;
+  background: #777E90;
+  position: absolute;
+  left: 0;
+  top: 45%;
+  transform: translateY(-50%);
+}/*# sourceMappingURL=style.css.map */
