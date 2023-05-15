@@ -11,7 +11,17 @@
     font-size: 20px;
     line-height: 25px;
 }
-
+@mixin  after($width,$height,$af,$af_px) {
+    content: "";
+    width: $width;
+    height: $height;
+    background: #777E90;
+    position: absolute;
+    $af:$af_px;
+    
+    top: 45%;
+    transform: translateY(-50%);
+}
 .content {
     display: flex;
     // align-items: center;
@@ -85,15 +95,8 @@
 
         .nav_item2::after,
         .nav_item1::after {
-            content: "";
-            width: 2px;
-            height: 28px;
-            background: #777E90;
-            position: absolute;
-            right: -7px;
-            // left: 7px;
-            top: 45%;
-            transform: translateY(-50%);
+        
+            @include after(2px,28px,right,-7px );
         }
 
 
