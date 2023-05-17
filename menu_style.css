@@ -143,6 +143,7 @@
   border-radius: 10px;
   line-height: 20px;
 }
+.content_todo .menu_edit:hover,
 .content_todo .menu_add:hover {
   background-color: blue;
 }
@@ -150,5 +151,5 @@
   height: 48px;
   align-self: center;
   position: absolute;
-  left: 99%;
-}/*# sourceMappingURL=style.css.map */
+  left: 98.4%;
+}/*# sourceMappingURL=menu_style.css.map */
