@@ -56,6 +56,24 @@
             height: 40.17px;
         }
 
+        @keyframes diagonal-slide-animation {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .logo_icon:hover {
+            animation: diagonal-slide-animation 1s linear 2;
+        }
+
         .title {
             // width: 65px;
             // height: 25px;
@@ -165,6 +183,7 @@
     align-items: center;
     background: #23262F;
     left: 50%;
+
     .menu_add {
         @include font('Inter');
         color: #FFFFFF;
@@ -185,8 +204,9 @@
         line-height: 20px;
 
     }
+
     .menu_edit:hover,
-    .menu_add:hover{
+    .menu_add:hover {
         background-color: blue;
     }
 
