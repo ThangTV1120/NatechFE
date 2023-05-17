@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+$white-color: #ffffff;
+$main-color: #E6E8EC;
+$footer-bottom-color: #B1B5C4;
+$footer-list: #F4F5F6;
+$social-link: #777E91;
+
+body {
+    background: #141416;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px solid #353945;
+    position: fixed;
+    padding: 100px 170px 60px 170px;
+    bottom: 8.25rem;
+    width: 100%;
+    height: 400px;
+}
+
+.footer-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    .footer-logo {
+        display: flex;
+        align-items: center;
+        p {
+            color: $white-color;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 25px;
+            position: relative;
+            top: -30;
+            right: -50px;
+        }
+    }
+    .footer-search {
+        color: $main-color;
+        .footer-text {
+            color: $main-color;
+            line-height: 24px;
+            margin-bottom: 20px;
+        }
+    }
+
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    .input {
+        font-size: 18px;
+        flex-grow: 1;
+        padding: 10px;
+        font-weight: 500;
+        border: 2px solid #353945;
+        border-radius: 24px;
+    }
+    .input-btn {
+        position: absolute;
+        background-color: #3B71FE;
+        color: $white-color;
+        left: 410px;
+        height: 30px;
+        width: 30px;
+        border-radius: 30%;
+    }
+}
+
+.footer-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 0 0 250px;
+    .footer-list {
+        width: 200px;
+        height: 24px;
+        .footer-list-title {
+            color: $footer-list;
+            width: 100px;
+            height: 36px;
+        }
+        .footer-link {
+            color: $footer-bottom-color;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 34px;
+        }
+    }
+}
+
+.footer-bottom {
+    position: fixed;
+    bottom: 72px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    line-height: 20px;
+    p {
+        color: $footer-bottom-color;
+        font-weight: 400;
+        font-size: 14px;
+        padding: 0 170px 0 170px;
+    }    
+    .social-list {
+        height: 20px;
+        width: 300px;
+        border-radius: 0px;
+        .social-link {
+            display: inline-block;
+            width: 30px;
+            border-radius: 0px;
+            color: $footer-link;
+        }
+    }
+}
