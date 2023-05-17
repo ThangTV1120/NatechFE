@@ -36,13 +36,7 @@
       @include display($fd: row, $jc: unset, $ai: center, $g: 390px);
       padding: 0px;
 
-      @mixin fontall(
-        $ff: "Gilroy",
-        $fw: 800,
-        $fsi: 20px,
-        $lh: 25px,
-        $color: #353945
-      ) {
+      @mixin fontall($ff: "Gilroy", $fw: 800, $fsi: 20px, $lh: 25px, $color: #353945) {
         font-family: $ff;
         font-style: normal;
         font-weight: $fw;
