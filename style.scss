@@ -5,23 +5,34 @@
     font-size: 100%;
 }
 
-@mixin font {
-    font-family: 'Gilroy';
+@mixin font($font) {
+    font-family: $font;
     font-style: normal;
     font-size: 20px;
     line-height: 25px;
 }
-@mixin  after($width,$height,$af,$af_px) {
+
+@mixin after($width, $height, $af, $af_px) {
     content: "";
     width: $width;
     height: $height;
     background: #777E90;
     position: absolute;
-    $af:$af_px;
-    
     top: 45%;
     transform: translateY(-50%);
+
+    @if $af=="right" {
+        right: $af_px;
+    }
+
+    @else if $af=="left" {
+        left: $af_px;
+    }
+
+
+
 }
+
 .content {
     display: flex;
     // align-items: center;
@@ -48,8 +59,7 @@
         .title {
             // width: 65px;
             // height: 25px;
-            @include font();
-
+            @include font('Gilroy');
             font-weight: 800;
             text-align: center;
             color: #FFFFFF;
@@ -76,7 +86,7 @@
 
             color: #B1B5C4;
             list-style: none;
-            @include font();
+            @include font('Inter');
         }
 
         .logo_icon {
@@ -95,12 +105,9 @@
 
         .nav_item2::after,
         .nav_item1::after {
-        
-            @include after(2px,28px,right,-7px );
+            @include after(2px, 28px, "right", -7px);
+            margin-left: 4px;
         }
-
-
-
     }
 
     .menu_user {
@@ -111,9 +118,10 @@
 
         li {
             list-style: none;
-            @include font();
+            @include font('Gilroy');
             margin-left: 10px;
             color: #FFFFFF;
+
             .bell {
                 // background: #000000;
                 padding: 5px;
@@ -124,22 +132,72 @@
 
         .img_user {
             position: relative;
+
             .user {
                 margin-left: 8px;
             }
         }
 
         .img_user::after {
-            content: "";
-            width: 1px;
-            height: 32px;
-            background: #777E90;
+            @include after(1px, 32px, "left", 0px);
+            // content: "";
+            // width: 1px;
+            // height: 32px;
+            // background: #777E90;
 
-            position: absolute;
-            left: 0;
-            top: 45%;
-            transform: translateY(-50%);
+            // position: absolute;
+            // left: 0;
+            // top: 45%;
+            // transform: translateY(-50%);
         }
 
+    }
+
+
+}
+
+.content_todo {
+    display: flex;
+    flex-direction: row;
+    padding: 28px 40px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background: #23262F;
+    left: 50%;
+    .menu_add {
+        @include font('Inter');
+        color: #FFFFFF;
+        font-size: 14px;
+        padding: 7px 4px;
+        line-height: 20px;
+        background: #353945;
+        border-radius: 10px;
+    }
+
+    .menu_edit {
+        @include font('Inter');
+        color: #FFFFFF;
+        background-color: blue;
+        font-size: 14px;
+        padding: 7px 4px;
+        border-radius: 10px;
+        line-height: 20px;
+
+    }
+    .menu_add:hover{
+        background-color: blue;
+    }
+
+    .close_icon {
+        height: 48px;
+        align-self: center;
+        position: absolute;
+        left: 99%;
+        // width: 493px;
+        // left: 418px;
+        // top: 0px;
+        // border-radius: 0px;
+        // float: right;
     }
 }

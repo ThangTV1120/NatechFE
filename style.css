@@ -46,7 +46,7 @@
   margin-left: 10px;
   color: #B1B5C4;
   list-style: none;
-  font-family: "Gilroy";
+  font-family: "Inter";
   font-style: normal;
   font-size: 20px;
   line-height: 25px;
@@ -71,6 +71,8 @@
   position: absolute;
   top: 45%;
   transform: translateY(-50%);
+  right: -7px;
+  margin-left: 4px;
 }
 .content .menu_user {
   display: flex;
@@ -102,7 +104,51 @@
   height: 32px;
   background: #777E90;
   position: absolute;
-  left: 0;
   top: 45%;
   transform: translateY(-50%);
+  left: 0px;
+}
+
+.content_todo {
+  display: flex;
+  flex-direction: row;
+  padding: 28px 40px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background: #23262F;
+  left: 50%;
+}
+.content_todo .menu_add {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+  font-size: 14px;
+  padding: 7px 4px;
+  line-height: 20px;
+  background: #353945;
+  border-radius: 10px;
+}
+.content_todo .menu_edit {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+  background-color: blue;
+  font-size: 14px;
+  padding: 7px 4px;
+  border-radius: 10px;
+  line-height: 20px;
+}
+.content_todo .menu_add:hover {
+  background-color: blue;
+}
+.content_todo .close_icon {
+  height: 48px;
+  align-self: center;
+  position: absolute;
+  left: 99%;
 }/*# sourceMappingURL=style.css.map */
