@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+@mixin display($fd: row, $jc: center, $ai: center, $g: 102px) {
+  display: flex;
+  flex-direction: $fd;
+  justify-content: $jc;
+  align-items: $ai;
+  gap: $g;
+}
+
+@mixin daicao($w: 1440px, $h: 708px) {
+  width: $w;
+  height: $h;
+}
+
+@mixin font($fw: 600, $fs: 26px, $lh: 36px, $ta: center) {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  text-align: $ta;
+}
+
+body {
+  @include display($g: 0px);
+  background: #ffffff;
+}
+
+.book-steps {
+  @include display;
+  background: #ffffff;
+  @include daicao;
+  border: 1px solid black;
+
+  .create-trip {
+    @include display($g: 10px);
+    background: #fee2b6;
+    @include daicao($w: 500px, $h: 570px);
+    border-radius: 39px;
+
+    .your-trip {
+      @include display($fd: column, $g: 26px);
+      @include daicao($w: 363px, $h: 489px);
+      border: 1px solid black;
+
+      .card {
+        @include display($fd: column, $jc: unset, $ai: flex-start, $g: 10px);
+        @include daicao($w: 363px, $h: 489px);
+        background: #ffffff;
+        border-radius: 30px;
+
+        .frame {
+          @include display($fd: row, $ai: flex-start, $g: 10px);
+          @include daicao($w: 363px, $h: 359px);
+          background: #3b71fe;
+          border-radius: 30px 30px 0px 0px;
+
+          .f-content {
+            @include display(
+              $fd: column,
+              $jc: unset,
+              $ai: flex-start,
+              $g: 18px
+            );
+            @include daicao($w: 250px, $h: 314px);
+
+            .heading {
+              @include display(
+                $fd: column,
+                $jc: unset,
+                $ai: flex-start,
+                $g: 9px
+              );
+              @include daicao($w: 143px, $h: 60px);
+
+              p:nth-child(1) {
+                @include font($fw: 700, $fs: 18px, $lh: 27px, $ta: unset);
+                @include daicao($w: 143px, $h: 27px);
+                color: #ffffff;
+              }
+
+              p:nth-child(2) {
+                @include font($fw: 400, $fs: 16px, $lh: 24px, $ta: unset);
+                @include daicao($w: 100px, $h: 24px);
+                color: #F4F5F6;
+              }
+            }
+
+            .input {
+              @include display(
+                $fd: column,
+                $jc: center,
+                $ai: flex-start,
+                $g: 10px
+              );
+              @include daicao($w: 250px, $h: 38px);
+              background: #ffffff;
+              border-radius: 10px;
+            }
+
+            .c-frame {
+                @include display(
+                $fd: column,
+                $jc: unset,
+                $ai: flex-start,
+                $g: 18px
+              );
+              @include daicao($w: 203px, $h: 180px);
+              border: 1px solid black;
+            }
+          }
+        }
+
+        p {
+          @include font;
+          color: #353945;
+          @include daicao($w: 233px, $h: 36px);
+        }
+      }
+
+      .botom {
+        @include display($jc: unset, $g: 40px);
+        @include daicao($w: 199px, $h: 24px);
+        border: 1px solid black;
+      }
+    }
+  }
+
+  //part2
+
+  .content {
+    @include display($fd: column, $ai: flex-start, $g: 50px);
+    @include daicao($w: 568px, $h: 501px);
+    border: 1px solid black;
+  }
+}

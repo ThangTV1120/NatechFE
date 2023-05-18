@@ -8,6 +8,14 @@
   width: $w;
   height: $h;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  background: #ffffff;
+}
 
 .header {
   p:hover {
@@ -36,7 +44,13 @@
       @include display($fd: row, $jc: unset, $ai: center, $g: 390px);
       padding: 0px;
 
-      @mixin fontall($ff: "Gilroy", $fw: 800, $fsi: 20px, $lh: 25px, $color: #353945) {
+      @mixin fontall(
+        $ff: "Gilroy",
+        $fw: 800,
+        $fsi: 20px,
+        $lh: 25px,
+        $color: #353945
+      ) {
         font-family: $ff;
         font-style: normal;
         font-weight: $fw;
@@ -258,13 +272,13 @@
             @include display($fd: row, $jc: unset, $ai: center, $g: 2px);
             padding-left: 24px;
 
-            input[type="text"] {
+            input {
               @include daicao($w: 160px, $h: 32px);
               padding: 10px;
-              border: none;
               margin-left: 10px;
               font-weight: 700;
               font-size: 20px;
+              outline: 0;
             }
 
             button {

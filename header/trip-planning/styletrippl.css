@@ -1,0 +1,302 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  background: #ffffff;
+}
+
+.trip-planning {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  width: 1440px;
+  height: 574px;
+  background: #ffffff;
+  /*cards*/
+}
+.trip-planning .heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 462px;
+  height: 148px;
+}
+.trip-planning .heading p:nth-child(1) {
+  width: 462px;
+  height: 60px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #23262f;
+}
+.trip-planning .heading p:nth-child(2) {
+  width: 461px;
+  height: 64px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #353945;
+}
+.trip-planning .cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: unset;
+  gap: 0px;
+  width: 876px;
+  height: 236px;
+}
+@keyframes diagonal-slide-animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.trip-planning .cards button:hover {
+  animation: diagonal-slide-animation 1s linear infinite;
+}
+.trip-planning .cards a:hover {
+  text-decoration: underline;
+}
+.trip-planning .cards .card-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 272px;
+  height: 236px;
+  background: #eef9f2;
+  border-radius: 12px;
+}
+.trip-planning .cards .card-1 .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: unset;
+  align-items: center;
+  gap: 28px;
+  width: 201px;
+  height: 194px;
+}
+.trip-planning .cards .card-1 .content .body-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: unset;
+  align-items: center;
+  gap: 16px;
+  width: 201px;
+  height: 142px;
+}
+.trip-planning .cards .card-1 .content .body-button button {
+  width: 48px;
+  height: 48px;
+  background-image: url("./img-tripplanning/sun.svg");
+  border-radius: 30px;
+  cursor: pointer;
+}
+.trip-planning .cards .card-1 .content .body-button p {
+  width: 201px;
+  height: 78px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 26px;
+  text-align: center;
+  color: #353945;
+}
+.trip-planning .cards .card-1 .content .learnmore {
+  display: flex;
+  flex-direction: row;
+  justify-content: unset;
+  align-items: center;
+  gap: 3px;
+  width: 93px;
+  height: 24px;
+}
+.trip-planning .cards .card-1 .content .learnmore a {
+  width: 66px;
+  height: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: unset;
+  color: #353945;
+  cursor: pointer;
+}
+.trip-planning .cards .card-1 .content .learnmore img {
+  width: 24px;
+  height: 24px;
+}
+.trip-planning .cards .card-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 272px;
+  height: 236px;
+  background: #fff4ee;
+  border-radius: 12px;
+}
+.trip-planning .cards .card-2 .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: unset;
+  align-items: center;
+  gap: 28px;
+  width: 201px;
+  height: 194px;
+}
+.trip-planning .cards .card-2 .content .body-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: unset;
+  align-items: center;
+  gap: 16px;
+  width: 201px;
+  height: 142px;
+}
+.trip-planning .cards .card-2 .content .body-button button {
+  width: 48px;
+  height: 48px;
+  background-image: url("./img-tripplanning/tv.svg");
+  border-radius: 30px;
+  cursor: pointer;
+}
+.trip-planning .cards .card-2 .content .body-button p {
+  width: 201px;
+  height: 78px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 26px;
+  text-align: center;
+  color: #353945;
+}
+.trip-planning .cards .card-2 .content .learnmore {
+  display: flex;
+  flex-direction: row;
+  justify-content: unset;
+  align-items: center;
+  gap: 3px;
+  width: 93px;
+  height: 24px;
+}
+.trip-planning .cards .card-2 .content .learnmore a {
+  width: 66px;
+  height: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: unset;
+  color: #353945;
+  cursor: pointer;
+}
+.trip-planning .cards .card-2 .content .learnmore img {
+  width: 24px;
+  height: 24px;
+}
+.trip-planning .cards .card-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 272px;
+  height: 236px;
+  background: #ebf1ff;
+  border-radius: 12px;
+}
+.trip-planning .cards .card-3 .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: unset;
+  align-items: center;
+  gap: 28px;
+  width: 201px;
+  height: 194px;
+}
+.trip-planning .cards .card-3 .content .body-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: unset;
+  align-items: center;
+  gap: 16px;
+  width: 201px;
+  height: 142px;
+}
+.trip-planning .cards .card-3 .content .body-button button {
+  width: 48px;
+  height: 48px;
+  background-image: url("./img-tripplanning/book.svg");
+  border-radius: 30px;
+  cursor: pointer;
+}
+.trip-planning .cards .card-3 .content .body-button p {
+  width: 201px;
+  height: 78px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 26px;
+  text-align: center;
+  color: #353945;
+}
+.trip-planning .cards .card-3 .content .learnmore {
+  display: flex;
+  flex-direction: row;
+  justify-content: unset;
+  align-items: center;
+  gap: 3px;
+  width: 93px;
+  height: 24px;
+}
+.trip-planning .cards .card-3 .content .learnmore a {
+  width: 66px;
+  height: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: unset;
+  color: #353945;
+  cursor: pointer;
+}
+.trip-planning .cards .card-3 .content .learnmore img {
+  width: 24px;
+  height: 24px;
+}
+
+/*# sourceMappingURL=styletrippl.css.map */

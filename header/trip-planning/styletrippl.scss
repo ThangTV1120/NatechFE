@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+@mixin display($fd: column, $jc: center, $ai: center, $g: 10px) {
+  display: flex;
+  flex-direction: $fd;
+  justify-content: $jc;
+  align-items: $ai;
+  gap: $g;
+}
+
+@mixin daicao($w: 1440px, $h: 574px) {
+  width: $w;
+  height: $h;
+}
+
+@mixin font($fw: 700, $fs: 40px, $lh: 60px, $ta: center) {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  text-align: $ta;
+}
+
+body {
+  @include display($g: 0px);
+  background: #ffffff;
+}
+
+.trip-planning {
+  @include display($g: 50px);
+  @include daicao;
+  background: #ffffff;
+
+  .heading {
+    @include display($g: 24px);
+    @include daicao($w: 462px, $h: 148px);
+
+    p:nth-child(1) {
+      @include daicao($w: 462px, $h: 60px);
+      @include font;
+      letter-spacing: -0.01em;
+      color: #23262f;
+    }
+
+    p:nth-child(2) {
+      @include daicao($w: 461px, $h: 64px);
+      @include font($fw: 400, $fs: 18px, $lh: 32px);
+      color: #353945;
+    }
+  }
+
+  /*cards*/
+
+  .cards {
+    @include display($fd: row, $jc: space-between, $ai: unset, $g: 0px);
+    @include daicao($w: 876px, $h: 236px);
+
+    @keyframes diagonal-slide-animation {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    button:hover {
+      animation: diagonal-slide-animation 1s linear infinite;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    @mixin color($color: #eef9f2, $img: "./img-tripplanning/sun.svg") {
+      @include display($g: 10px);
+      @include daicao($w: 272px, $h: 236px);
+      background: $color;
+      border-radius: 12px;
+
+      .content {
+        @include display($jc: unset, $g: 28px);
+        @include daicao($w: 201px, $h: 194px);
+
+        .body-button {
+          @include display($jc: unset, $g: 16px);
+          @include daicao($w: 201px, $h: 142px);
+
+          button {
+            @include daicao($w: 48px, $h: 48px);
+            background-image: url($img);
+            border-radius: 30px;
+            cursor: pointer;
+          }
+
+          p {
+            @include daicao($w: 201px, $h: 78px);
+            @include font($fw: 500, $fs: 19px, $lh: 26px);
+            color: #353945;
+          }
+        }
+
+        .learnmore {
+          @include display($fd: row, $jc: unset, $g: 3px);
+          @include daicao($w: 93px, $h: 24px);
+
+          a {
+            @include daicao($w: 66px, $h: 15px);
+            @include font($fw: 600, $fs: 12px, $lh: 15px, $ta: unset);
+            color: #353945;
+            cursor: pointer;
+          }
+
+          img {
+            @include daicao($w: 24px, $h: 24px);
+          }
+        }
+      }
+    }
+
+    .card-1 {
+      @include color;
+    }
+
+    .card-2 {
+      @include color($color: #fff4ee, $img: "./img-tripplanning/tv.svg");
+    }
+
+    .card-3 {
+      @include color($color: #ebf1ff, $img: "./img-tripplanning/book.svg");
+    }
+  }
+}

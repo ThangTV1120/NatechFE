@@ -4,6 +4,14 @@
   border: none;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  background: #ffffff;
+}
+
 .header {
   border: 1px solid black;
   display: flex;
@@ -277,14 +285,14 @@
   gap: 2px;
   padding-left: 24px;
 }
-.header .h--content .contents .left .heading-button .search-inp input[type=text] {
+.header .h--content .contents .left .heading-button .search-inp input {
   width: 160px;
   height: 32px;
   padding: 10px;
-  border: none;
   margin-left: 10px;
   font-weight: 700;
   font-size: 20px;
+  outline: 0;
 }
 .header .h--content .contents .left .heading-button .search-inp button {
   width: 53px;
