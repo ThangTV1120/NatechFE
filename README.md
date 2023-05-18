@@ -1,5 +1,8 @@
 # NatechFE
-Homepage_Header:
-  1)Thắng:Frame 37
-  2)Tường:Sign up
-  3)An:Top
+  1)Thắng: menu
+  2)Tường:footer
+  3)An:header
+-----------------------------------------------------------------------------------------------------------------------------------
+1)Tường : sing up page
+2) An : homepage
+3) Thắng: travelers(location)
