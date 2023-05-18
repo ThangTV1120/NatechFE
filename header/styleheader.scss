@@ -200,7 +200,7 @@
             @include daicao($w: 490px, $h: 240px);
 
             .travel {
-              @include daicao($w: 490px, $h: 154px);
+              @include daicao($w: 100%, $h: 65%);
               font-family: "Inter";
               font-style: normal;
               font-weight: 900;
