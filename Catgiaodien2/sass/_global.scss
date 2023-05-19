@@ -1,0 +1,19 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    width: 1440px;
+    height: 1024px;
+    background-color: $main-color;
+    position: relative;
+    left: 300px;
+}
+
+.wrapper {
+    width: inherit;
+    height: inherit;
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+}

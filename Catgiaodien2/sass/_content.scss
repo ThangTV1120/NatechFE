@@ -1,0 +1,320 @@
+.signin-form {
+    .content {
+        @include columflex;
+        width: 376px;
+        height: 220px;
+        gap: 10px;
+        .input-box {
+            width: inherit;
+            height: 82px;
+            box-sizing: inherit;
+            @extend %columflex;
+            gap: 10px;
+            width: inherit;
+            input {
+                @include rowdisplay;
+                padding: 12px 20px;
+                width: inherit;
+                height: 48px;
+                border: 1px solid $gray-color-2;
+                border-radius: 6px;
+                background-color: transparent;
+                @include font;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: $gray-color-3;
+            }
+            .eyes-on {
+                position: absolute;
+                right: 13%;
+                bottom: 26%;
+                color: #777e90;
+                background: transparent;
+            }
+            .eyes-off {
+                position: absolute;
+                right: 13%;
+                bottom: 26%;
+                color: #777e90;
+                background: transparent;
+            }
+            .eyes-on,
+            .eyes-off:hover {
+                color: $icon-color;
+                background: transparent;
+                border-color: $icon-color;
+            }
+        }
+        p {
+            color: $gray-color-7;
+            @include font;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        .forgot {
+            @include rowdisplay;
+            justify-content: space-between;
+            padding: 0px;
+            width: 376px;
+            height: 20px;
+            gap: 96px;
+            margin-bottom: -20px;
+            .forgot-link {
+                width: 154px;
+                height: 20px;
+                color: rgba(59, 113, 254, 0.8);
+                @include font;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                order: 2;
+            }
+            .remember-label {
+                @include rowdisplay;
+                gap: 12px;
+                order: 1;
+                height: 20px;
+                color: $gray-color-4;
+                @include font;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+            }
+            .checkbox-pass {
+                box-sizing: border-box;
+                width: 16px;
+                height: 16px;
+                border: 1.5px solid $gray-color-2;
+                border-radius: 4px;
+            }
+        }
+        .email-error {
+            display: none;
+            color: #eb5757;
+            font-size: 14px;
+            position: absolute;
+            top: 58.5%;
+            left: 10%;
+        }
+        .password-error {
+            display: none;
+            color: #eb5757;
+            font-size: 14px;
+            position: absolute;
+            bottom: 20%;
+            left: 10%;
+        }
+        .email-error.show,
+        .password-error.show {
+            display: block;
+        }
+    }
+}
+
+.signup-form {
+    .content {
+        @include columflex;
+        width: 376px;
+        height: 430px;
+        .input-box {
+            width: inherit;
+            height: 82px;
+            box-sizing: inherit;
+            @include rowdisplay;
+            padding: 10px 0;
+            input {
+                @include rowdisplay;
+                width: 100%;
+                height: 100%;
+                background: transparent;
+                border: 1px solid $gray-color-2;
+                border-radius: 10px;
+                font-size: 16px;
+                color: $gray-color-3;
+                padding: 0 16px;
+                @include font;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            .eyes-on {
+                position: absolute;
+                right: 550px;
+                color: $gray-color-3;
+                background: transparent;
+            }
+            .eyes-off {
+                position: absolute;
+                right: 550px;
+                color: $gray-color-3;
+                background: transparent;
+            }
+            .eyes-on,
+            .eyes-off:hover {
+                color: $icon-color;
+                background: transparent;
+                border-color: $icon-color;
+            }
+        }
+        p {
+            @include font;
+            color: $gray-color-7;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            width: 82px;
+            height: 24px;
+        }
+        .forgot {
+            @include rowdisplay;
+            justify-content: space-between;
+            width: 376px;
+            height: 20px;
+            text-align: right;
+            .forgot-link {
+                width: 154px;
+                height: inherit;
+                color: rgba(59, 113, 254, 0.8);
+                @include font;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                order: 2;
+            }
+            .remember-label {
+                text-align: left;
+                order: 1;
+                color: $gray-color-4;
+                @include font;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+    }
+}
+
+.foget-password-form {
+    .content {
+        @include columflex;
+        width: 460px;
+        height: 300px;
+        .foget-password {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 14px 20px;
+            gap: 20px;
+            width: 460px;
+            height: 100%;
+            border-radius: 9px;
+            .icon-text {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 0px;
+                gap: 20px;
+                width: 100%;
+                height: 100%;
+                border: 1px solid $gray-color-2;
+                border-radius: 9px;
+                transition: 0.3s ease;
+                .icon {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 10px;
+                    padding: 8px 8px 7px;
+                    gap: 10px;
+                    width: 40px;
+                    height: 39px;
+                    background: rgba(59, 113, 254, 0.2);
+                    border-radius: 30px;
+                    color: #f4f5f9;
+                }
+                .text {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    padding: 0px;
+                    gap: 4px;
+                    width: 100%;
+                    .text-title {
+                        width: 115px;
+                        height: 24px;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: $gray-color-5;
+                    }
+                    .text-note {
+                        color: $gray-color-4;
+                        width: 90%;
+                    }
+                }
+            }
+            .icon-text:hover {
+                color: #4481eb;
+                background: transparent;
+                border-color: #4481eb;
+            }
+        }
+    }
+}
+
+.email-verification-form {
+    .content {
+        @include flexdisplay;
+        padding: 0px;
+        gap: 28px;
+        width: 460px;
+        height: 227px;
+        .title {
+            width: 106px;
+            height: 20px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            color: #b1b5c4;
+        }
+        .number-list {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 30px;
+            width: 254px;
+            height: 39px;
+            .code {
+                @include flexdisplay;
+                padding: 0px;
+                gap: 9px;
+                width: 41px;
+                height: 39px;
+                .number {
+                    width: 14px;
+                    height: 28px;
+                    font-family: "Roboto";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 28px;
+                    color: #b1b5c4;
+                }
+                .empty-box {
+                    width: 41px;
+                    height: 2px;
+                    background: #3b71fe;
+                    border-radius: 2px;
+                }
+            }
+        }
+    }
+}
