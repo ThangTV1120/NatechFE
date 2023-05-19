@@ -1,0 +1,324 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  background: #ffffff;
+}
+
+.book-steps {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 102px;
+  background: #ffffff;
+  width: 1440px;
+  height: 708px;
+  border: 1px solid black;
+}
+.book-steps .create-trip {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #fee2b6;
+  width: 500px;
+  height: 570px;
+  border-radius: 39px;
+}
+.book-steps .create-trip .your-trip {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+  width: 363px;
+  height: 489px;
+  border: 1px solid black;
+}
+.book-steps .create-trip .your-trip .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: unset;
+  align-items: flex-start;
+  gap: 10px;
+  width: 363px;
+  height: 489px;
+  background: #ffffff;
+  border-radius: 30px;
+}
+.book-steps .create-trip .your-trip .card .frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 363px;
+  height: 359px;
+  background: #3b71fe;
+  border-radius: 30px 30px 0px 0px;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: unset;
+  align-items: flex-start;
+  gap: 18px;
+  width: 250px;
+  height: 314px;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content .heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: unset;
+  align-items: flex-start;
+  gap: 9px;
+  width: 143px;
+  height: 60px;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content .heading p:nth-child(1) {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: unset;
+  width: 143px;
+  height: 27px;
+  color: #ffffff;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content .heading p:nth-child(2) {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: unset;
+  width: 100px;
+  height: 24px;
+  color: #f4f5f6;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content .input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  width: 250px;
+  height: 38px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content .input .inp-frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 0px;
+  width: 222px;
+  height: 24px;
+  align-self: stretch;
+  margin-left: 18px;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content .input .inp-frame input {
+  width: 144px;
+  height: 21px;
+  outline: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: unset;
+  color: #23262f;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content .input .inp-frame button {
+  background-image: url("./img-booksteps/ic-input.svg");
+  width: 24px;
+  height: 24px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content .c-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: unset;
+  align-items: flex-start;
+  gap: 18px;
+  width: 203px;
+  height: 180px;
+  border: 1px solid black;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content .c-frame .row1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: unset;
+  align-items: flex-end;
+  gap: 16px;
+  width: 203px;
+  height: 50px;
+  padding: 0px;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content .c-frame .row1 .r-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: unset;
+  align-items: center;
+  gap: 14px;
+  width: 203px;
+  height: 24px;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content .c-frame .row1 .r-row p {
+  width: 161px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #f4f5f9;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content .c-frame .row1 p {
+  width: 169px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #e6e8ec;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content .c-frame .row2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: unset;
+  align-items: flex-end;
+  gap: 16px;
+  width: 203px;
+  height: 47px;
+  padding: 0px;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content .c-frame .row2 .r-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: unset;
+  align-items: center;
+  gap: 14px;
+  width: 203px;
+  height: 21px;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content .c-frame .row2 .r-row p {
+  width: 113px;
+  height: 21px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #f4f5f9;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content .c-frame .row2 p {
+  width: 169px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #e6e8ec;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content .c-frame .row2 .r-row {
+  gap: 25px;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content .c-frame .row3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: unset;
+  align-items: flex-end;
+  gap: 16px;
+  width: 203px;
+  height: 47px;
+  padding: 0px;
+  gap: 11px;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content .c-frame .row3 .r-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: unset;
+  align-items: center;
+  gap: 14px;
+  width: 203px;
+  height: 21px;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content .c-frame .row3 .r-row p {
+  width: 111px;
+  height: 21px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #f4f5f9;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content .c-frame .row3 p {
+  width: 169px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #e6e8ec;
+}
+.book-steps .create-trip .your-trip .card .frame .f-content .c-frame .row3 .r-row {
+  gap: 25px;
+}
+.book-steps .create-trip .your-trip .card p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 36px;
+  text-align: center;
+  color: #353945;
+  width: 233px;
+  height: 36px;
+}
+.book-steps .create-trip .your-trip .botom {
+  display: flex;
+  flex-direction: row;
+  justify-content: unset;
+  align-items: center;
+  gap: 40px;
+  width: 199px;
+  height: 24px;
+  border: 1px solid black;
+}
+.book-steps .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  width: 568px;
+  height: 501px;
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=stylebooksteps.css.map */
