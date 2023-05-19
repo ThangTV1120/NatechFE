@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  gap: 112px;
+  background: #141416;
+}
+.content .location_trip {
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 40px;
+}
+.content .location_trip h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #FFFFFF;
+  text-align: center;
+  letter-spacing: -0.01em;
+}
+.content .location_trip .detailt {
+  color: #FFFFFF;
+}
+.content .location_trip .detailt .detailt_location {
+  height: 86px;
+  width: 520px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  margin-top: 25px;
+}
+.content .location_trip .detailt .detailt_location p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+.content .location_trip .detailt .detailt_location .city {
+  width: 100%;
+  background: rgba(59, 113, 254, 0.2);
+  border: 0px solid rgba(59, 113, 254, 0.2);
+  outline: 0;
+  font-size: 16px;
+  color: #B1B5C3;
+  border-radius: 10px;
+  padding: 10px;
+}
+.content .location_trip .detailt .detailt_check {
+  display: flex;
+  flex-direction: row;
+  left: 0px;
+  top: 0px;
+}
+.content .location_trip .detailt .detailt_check p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+.content .location_trip .detailt .detailt_check .check_in .start_date {
+  width: 250px;
+  background: rgba(59, 113, 254, 0.2);
+  border: 0px solid rgba(59, 113, 254, 0.2);
+  outline: 0;
+  font-size: 16px;
+  color: #B1B5C3;
+  border-radius: 10px;
+  padding: 10px;
+  padding: 8px;
+}
+.content .location_trip .detailt .detailt_check .check_out {
+  margin-left: 10px;
+}
+.content .location_trip .detailt .detailt_check .check_out .end_date {
+  width: 250px;
+  background: rgba(59, 113, 254, 0.2);
+  border: 0px solid rgba(59, 113, 254, 0.2);
+  outline: 0;
+  font-size: 16px;
+  color: #B1B5C3;
+  border-radius: 10px;
+  padding: 10px;
+  padding: 8px;
+}
+.content .location_trip .detailt .detailt_travel {
+  margin-top: 10px;
+  height: 86px;
+  width: 520px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+.content .location_trip .detailt .detailt_travel p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+.content .location_trip .detailt .detailt_travel .travel {
+  width: 100%;
+  background: rgba(59, 113, 254, 0.2);
+  border: 0px solid rgba(59, 113, 254, 0.2);
+  outline: 0;
+  font-size: 16px;
+  color: #B1B5C3;
+  border-radius: 10px;
+  padding: 10px;
+}
+.content .location_trip .btt_createTrip {
+  background: #3B71FE;
+  color: #FFFFFF;
+  height: 48px;
+  padding: 10px 30px;
+  gap: 10px;
+  border-radius: 10px;
+}
+.content .location_image {
+  width: 748px;
+  height: 652px;
+  background-image: url("image/home.png");
+  background-size: cover;
+  background-position: center center;
+}/*# sourceMappingURL=style_location.css.map */
