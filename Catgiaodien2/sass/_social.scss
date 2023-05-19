@@ -1,0 +1,75 @@
+.signin-form {
+    .social {
+        @include rowdisplay;
+        justify-content: space-between;
+        gap: 24px;
+        width: 376px;
+        height: 44px;
+        .icon {
+            @extend %rowdisplay;
+            justify-content: center;
+            padding: 10px 30px;
+            gap: 10px;
+            width: 110px;
+            height: 44px;
+            border: 1px solid $gray-color-2;
+            border-radius: 10px;
+            background-color: transparent;
+            .face-icon {
+                @include icon-size;
+                color: $icon-color;
+            }
+            .google-icon {
+                @include icon-size;
+                color: $icon-color;
+            }
+            .twitter-icon {
+                @include icon-size;
+                color: $icon-color;
+            }
+        }
+        .icon:hover {
+            color: $icon-color;
+            background: transparent;
+            border-color: $icon-color;
+        }
+    }
+}
+
+.signup-form {
+    .social {
+        @include rowdisplay;
+        justify-content: space-between;
+        gap: 24px;
+        width: 376px;
+        height: 44px;
+        .icon {
+            @extend %rowdisplay;
+            justify-content: center;
+            padding: 10px 30px;
+            gap: 10px;
+            width: 110px;
+            height: 44px;
+            border: 1px solid $gray-color-2;
+            border-radius: 10px;
+            background-color: transparent;
+            .face-icon {
+                @include icon-size;
+                color: $icon-color;
+            }
+            .google-icon {
+                @include icon-size;
+                color: $icon-color;
+            }
+            .twitter-icon {
+                @include icon-size;
+                color: $icon-color;
+            }
+        }
+        .icon:hover {
+            color: $icon-color;
+            background: transparent;
+            border-color: $icon-color;
+        }
+    }
+}

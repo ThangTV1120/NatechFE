@@ -1,0 +1,70 @@
+$heading-color: #ffffff;
+
+$main-color: #141416;
+
+$blue-color: #3b71fe;
+
+$icon-color: #4776d0;
+
+$gray-color-1: #23262f;
+$gray-color-2: #353945;
+$gray-color-3: #777e91;
+$gray-color-4: #b1b5c4;
+$gray-color-5: #e6e8ec;
+$gray-color-6: #f4f5f6;
+$gray-color-7: #f4f5f9;
+
+@mixin font {
+    font-family: "Inter";
+    font-style: normal;
+}
+
+@mixin flex {
+    display: flex;
+    align-items: center;
+}
+%flexx {
+    display: flex;
+    align-items: center;
+}
+
+@mixin flexdisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+%flexdisplayy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin columflex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+%columflex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@mixin rowdisplay {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+%rowdisplay {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@mixin icon-size {
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+}
