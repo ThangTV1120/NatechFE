@@ -55,7 +55,7 @@ body {
         border-radius: 30px;
 
         .frame {
-          @include display($fd: row, $ai: flex-start, $g: 10px);
+          @include display($fd: row, $g: 10px);
           @include daicao($w: 363px, $h: 359px);
           background: #3b71fe;
           border-radius: 30px 30px 0px 0px;
@@ -87,7 +87,7 @@ body {
               p:nth-child(2) {
                 @include font($fw: 400, $fs: 16px, $lh: 24px, $ta: unset);
                 @include daicao($w: 100px, $h: 24px);
-                color: #F4F5F6;
+                color: #f4f5f6;
               }
             }
 
@@ -101,10 +101,32 @@ body {
               @include daicao($w: 250px, $h: 38px);
               background: #ffffff;
               border-radius: 10px;
+
+              .inp-frame {
+                @include display($jc: space-between, $g: 20px);
+                padding: 0px;
+                @include daicao($w: 222px, $h: 24px);
+                align-self: stretch;
+                margin-left: 18px;
+
+                input {
+                  @include daicao($w: 144px, $h: 21px);
+                  outline: 0;
+                  @include font($fw: 900, $fs: 14px, $lh: 21px, $ta: unset);
+                  color: #23262f;
+                }
+
+                button {
+                  background-image: url("./img-booksteps/ic-input.svg");
+                  @include daicao($w: 24px, $h: 24px);
+                  background-color: #ffffff;
+                  cursor: pointer;
+                }
+              }
             }
 
             .c-frame {
-                @include display(
+              @include display(
                 $fd: column,
                 $jc: unset,
                 $ai: flex-start,
@@ -112,6 +134,55 @@ body {
               );
               @include daicao($w: 203px, $h: 180px);
               border: 1px solid black;
+
+              // ke thua
+
+              @mixin setrow($ht: 50px, $hrow: 24px, $wp: 161px, $hp: 24px, $fsp: 16px, $lhp: 24px) {
+                @include display(
+                  $fd: column,
+                  $jc: unset,
+                  $ai: flex-end,
+                  $g: 16px
+                );
+                @include daicao($w: 203px, $h: $ht);
+                padding: 0px;
+
+                .r-row {
+                  @include display($jc: unset, $g: 14px);
+                  @include daicao($w: 203px, $h: $hrow);
+
+                  p {
+                    @include daicao($w: $wp, $h: $hp);
+                    @include font($fw: 700, $fs: 16px, $lh: 24px);
+                    color: #f4f5f9;
+                  }
+                }
+
+                p {
+                  @include daicao($w: 169px, $h: 20px);
+                  @include font($fw: 400, $fs: 14px, $lh: 20px);
+                  color: #e6e8ec;
+                }
+              }
+
+              .row1 {
+                @include setrow;
+              }
+
+              .row2 {
+                @include setrow($ht: 47px, $hrow: 21px, $wp: 113px, $hp: 21px, $fsp: 14px, $lhp: 21px);
+                .r-row{
+                  gap: 25px;
+                }
+              }
+
+              .row3 {
+                @include setrow($ht: 47px, $hrow: 21px, $wp: 111px, $hp: 21px, $fsp: 14px, $lhp: 21px);
+                gap: 11px;
+                .r-row{
+                  gap: 25px;
+                }
+              }
             }
           }
         }
