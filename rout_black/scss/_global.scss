@@ -1,0 +1,21 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 70px;
+    position: relative;
+    width: 1440px;
+    height: 3502.17px;
+    background: #141416;
+}
+
+.wrapper {
+    position: absolute;
+    right: -270px;
+    border: 1px solid #ffffff;
+}

@@ -1,0 +1,96 @@
+.highlights-trip {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 1171px;
+    height: 550px;
+    position: relative;
+    right: -130px;
+    top: 30px;
+    .p0 {
+        width: 1171px;
+        height: 45px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 45px;
+        color: #ffffff;
+    }
+    .card5 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 30px;
+        width: 1170px;
+        height: 354px;
+        .acard5 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 17px 18px;
+            gap: 10px;
+            width: 370px;
+            height: 354px;
+            background: #23262f;
+            border-radius: 10px;
+            .frame81 {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0px;
+                gap: 16px;
+                width: 334px;
+                height: 320px;
+                img {
+                    width: 334px;
+                    height: 246px;
+                }
+                .title {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    padding: 0px;
+                    gap: 6px;
+                    height: 58px;
+                    .p1 {
+                        height: 28px;
+                        font-family: "Inter";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 28px;
+                        color: #ffffff;
+                    }
+                    .review {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 0px;
+                        width: 131px;
+                        height: 24px;
+                        .icon {
+                            width: 24px;
+                            height: 24px;
+                            color: orange;
+                        }
+                        .p2 {
+                            width: 107px;
+                            height: 20px;
+                            font-family: "Inter";
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 20px;
+                            color: #b1b5c4;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

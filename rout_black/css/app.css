@@ -1,0 +1,1151 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+.frame-87 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 1439.24px;
+  height: 1361.17px;
+}
+.frame-87 .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28px 40px;
+  gap: 10px;
+  width: 1439.24px;
+  height: 96.17px;
+  background: #23262f;
+  box-shadow: 0px 6px 30px rgba(15, 15, 15, 0.06);
+}
+.frame-87 .top .conten {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 372px;
+  width: 1359.24px;
+  height: 40.17px;
+}
+.frame-87 .top .conten .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  position: absolute;
+  gap: 10px;
+  width: 120.24px;
+  height: 40.17px;
+}
+.frame-87 .top .conten .booking {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: inherit;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 6px 6px 6px 12px;
+  gap: 10px;
+  width: 370px;
+  height: 40px;
+  background: #23262f;
+  border: 1px solid #353945;
+  box-shadow: 0px 12px 64px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  position: absolute;
+  right: 37%;
+}
+.frame-87 .top .conten .booking .contet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 23px;
+  width: 308px;
+  height: 28px;
+}
+.frame-87 .top .conten .booking .contet p {
+  height: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #b1b5c4;
+}
+.frame-87 .top .conten .booking .contet .empty-box {
+  width: 1px;
+  height: 19px;
+  background: #353945;
+}
+.frame-87 .top .conten .booking .icon-circle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px 6px 6px;
+  gap: 10px;
+  width: 28px;
+  height: 28px;
+  background: #3b71fe;
+  border-radius: 14px;
+  color: #ffffff;
+}
+.frame-87 .top .conten .right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 15px;
+  width: 169px;
+  height: 32px;
+  position: absolute;
+  right: 30px;
+}
+.frame-87 .top .conten .right .frame-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: 106px;
+  height: 24px;
+}
+.frame-87 .top .conten .right .frame-1 .empty-box {
+  width: 1px;
+  height: 32px;
+  background: #777e91;
+  opacity: 0.5;
+}
+.frame-87 .top .conten .right .frame-1 p {
+  width: 30px;
+  height: 21px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #f4f5f9;
+}
+.frame-87 .top .conten .right .frame-1 .icon {
+  width: 24px;
+  height: 24px;
+  color: #f4f5f9;
+  padding: 5px;
+}
+.frame-87 .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 66px;
+  width: 1439px;
+  height: 1265px;
+}
+.frame-87 .content .frame-86 {
+  width: 447px;
+  height: 1265px;
+  position: relative;
+}
+.frame-87 .content .frame-86 .card1 {
+  position: absolute;
+  width: 740px;
+  height: 237px;
+  left: -100px;
+  top: 620px;
+}
+.frame-87 .content .frame-86 .card1 .edit-dates {
+  position: absolute;
+  z-index: 1;
+  left: 130px;
+}
+.frame-87 .content .frame-86 .card1 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 35px 88px 35px 34px;
+  gap: 10px;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 54.55%;
+}
+.frame-87 .content .frame-86 .frame-85 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 70px;
+  position: absolute;
+  width: 437px;
+  height: 288px;
+  left: 0px;
+  top: 40px;
+}
+.frame-87 .content .frame-86 .frame-85 .title1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 437px;
+  height: 68px;
+}
+.frame-87 .content .frame-86 .frame-85 .title1 .icon-title1 {
+  position: relative;
+  top: 5px;
+  font-size: 45px;
+  color: #ffffff;
+}
+.frame-87 .content .frame-86 .frame-85 .title1 p {
+  width: 349px;
+  height: 60px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+.frame-87 .content .frame-86 .frame-85 .button1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: 427px;
+  height: 40px;
+  position: relative;
+  top: -20px;
+}
+.frame-87 .content .frame-86 .frame-85 .button1 .abutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 10px;
+  width: 70px;
+  height: 40px;
+  background: #353945;
+  border-radius: 6px;
+}
+.frame-87 .content .frame-86 .frame-85 .button1 .abutton p {
+  width: 40px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.frame-87 .content .frame-86 .frame-85 .button1 .bbutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 10px;
+  width: 118px;
+  height: 40px;
+  background: #23262f;
+  border-radius: 6px;
+}
+.frame-87 .content .frame-86 .frame-85 .button1 .bbutton p {
+  width: 74px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #e6e8ec;
+}
+.frame-87 .content .frame-86 .frame-85 .button1 .bbutton .icon-bbutton {
+  width: 24px;
+  height: 24px;
+  color: #ffffff;
+}
+.frame-87 .content .frame-86 .frame-85 .button1 .cbutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 113px;
+  height: 40px;
+  background: #23262f;
+  border-radius: 6px;
+}
+.frame-87 .content .frame-86 .frame-85 .button1 .cbutton p {
+  width: 93px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #e6e8ec;
+}
+.frame-87 .content .frame-86 .frame-85 .button1 .dbutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 13px 10px 14px;
+  gap: 10px;
+  width: 90px;
+  height: 40px;
+  background: #23262f;
+  border-radius: 6px;
+}
+.frame-87 .content .frame-86 .frame-85 .button1 .dbutton p {
+  width: 63px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #e6e8ec;
+}
+.frame-87 .content .frame-86 .frame-85 .button2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 144px;
+  height: 40px;
+  position: relative;
+  top: -20px;
+}
+.frame-87 .content .frame-86 .frame-85 .button2 .abutton2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 10px;
+  width: 66px;
+  height: 40px;
+  background: #191e2e;
+  border-radius: 6px;
+  color: #ffffff;
+}
+.frame-87 .content .frame-86 .frame-85 .button2 .bbutton2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 10px;
+  width: 66px;
+  height: 40px;
+  background: #191e2e;
+  border-radius: 6px;
+  color: #ffffff;
+}
+.frame-87 .content .frame-86 .calender {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 15px;
+  position: absolute;
+  height: 215px;
+  width: 642px;
+  bottom: 100px;
+  left: -105px;
+  top: 1000px;
+}
+.frame-87 .content .frame-86 .card2 {
+  align-items: center;
+  position: absolute;
+  width: 670px;
+  height: 230px;
+  left: -112px;
+  top: 645px;
+}
+.frame-87 .content .frame-86 .card3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  width: 720px;
+  height: 230px;
+  left: -145px;
+  top: 360px;
+}
+.frame-87 .content .right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 791px;
+  height: 1265px;
+  position: relative;
+  top: -27.9px;
+  right: -29px;
+}
+.frame-87 .content .right .map {
+  width: 791px;
+  height: 798px;
+}
+.frame-87 .content .right .banner {
+  width: 200%;
+  position: relative;
+  left: -80px;
+  top: -50px;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 70px;
+  position: relative;
+  width: 1440px;
+  height: 3502.17px;
+  background: #141416;
+}
+
+.wrapper {
+  position: absolute;
+  right: -270px;
+  border: 1px solid #ffffff;
+}
+
+.card4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 1029px;
+  height: 405px;
+  background: #23262f;
+  border-radius: 20px;
+  position: relative;
+  right: -220px;
+}
+.card4 .top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 535px;
+  width: 938px;
+  height: 45px;
+}
+.card4 .top p {
+  width: 265px;
+  height: 45px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+}
+.card4 .top button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 138px;
+  height: 30px;
+  background: #283558;
+  border-radius: 20px;
+  border: 0.1px solid #283558;
+}
+.card4 .top button p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  color: #3b71fe;
+  width: 100%;
+  margin-top: 26px;
+}
+.card4 .comment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 939px;
+  height: 296px;
+}
+.card4 .comment .empty-box {
+  width: 939px;
+  height: 1px;
+  background: #353945;
+}
+.card4 .comment .img-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 28px;
+  width: 869px;
+  height: 271px;
+}
+.card4 .comment .img-content .maskgroup {
+  width: 371px;
+  height: 271px;
+}
+.card4 .comment .img-content .right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 28px;
+  width: 470px;
+  height: 270px;
+}
+.card4 .comment .img-content .right .contentt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 470px;
+  height: 174px;
+}
+.card4 .comment .img-content .right .contentt .title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 470px;
+  height: 108px;
+}
+.card4 .comment .img-content .right .contentt .title .title2 {
+  width: 162px;
+  height: 36px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.card4 .comment .img-content .right .contentt .title .title3 {
+  width: 470px;
+  height: 60px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #b1b5c4;
+}
+.card4 .comment .img-content .right .contentt .sub-tittle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 6px;
+  width: 232px;
+  height: 42px;
+}
+.card4 .comment .img-content .right .contentt .sub-tittle .sub1 {
+  width: 184px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.card4 .comment .img-content .right .contentt .sub-tittle .sub2 {
+  width: 232px;
+  height: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #b1b5c4;
+}
+.card4 .comment .img-content .right .card5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12px;
+  gap: 10px;
+  width: 463px;
+  height: 68px;
+  background: #3b71fe;
+  border-radius: 10px;
+}
+.card4 .comment .img-content .right .card5 .content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 35px;
+  width: 439px;
+  height: 35px;
+}
+.card4 .comment .img-content .right .card5 .content .button1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 322px;
+  height: 35px;
+  position: relative;
+  right: 0;
+  bottom: 40px;
+}
+.card4 .comment .img-content .right .card5 .content .button1 .button2 {
+  width: 100%;
+  height: 34px;
+}
+.card4 .comment .img-content .right .card5 .content .button1 .button2 img {
+  color: #3b71fe;
+}
+.card4 .comment .img-content .right .card5 .content .button1 .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 9px;
+  width: 262px;
+  height: 35px;
+}
+.card4 .comment .img-content .right .card5 .content .button1 .text .text1 {
+  width: 98px;
+  height: 13px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #ffffff;
+}
+.card4 .comment .img-content .right .card5 .content .button1 .text .text2 {
+  width: 300px;
+  height: 13px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.card4 .comment .img-content .right .card5 .content .button1 .text .text2 a {
+  font-style: italic;
+  text-decoration: underline;
+  margin-right: 5px;
+}
+.card4 .comment .img-content .right .card5 .content .button3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 82px;
+  height: 22px;
+  background: #ffffff;
+  border-radius: 5px;
+  margin-top: 7px;
+}
+.card4 .comment .img-content .right .card5 .content .button3 button {
+  width: inherit;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #3b71fe;
+  border: none;
+}
+
+.highlights-trip {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 1171px;
+  height: 550px;
+  position: relative;
+  right: -130px;
+  top: 30px;
+}
+.highlights-trip .p0 {
+  width: 1171px;
+  height: 45px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+}
+.highlights-trip .card5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+  width: 1170px;
+  height: 354px;
+}
+.highlights-trip .card5 .acard5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 17px 18px;
+  gap: 10px;
+  width: 370px;
+  height: 354px;
+  background: #23262f;
+  border-radius: 10px;
+}
+.highlights-trip .card5 .acard5 .frame81 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 334px;
+  height: 320px;
+}
+.highlights-trip .card5 .acard5 .frame81 img {
+  width: 334px;
+  height: 246px;
+}
+.highlights-trip .card5 .acard5 .frame81 .title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 6px;
+  height: 58px;
+}
+.highlights-trip .card5 .acard5 .frame81 .title .p1 {
+  height: 28px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.highlights-trip .card5 .acard5 .frame81 .title .review {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  width: 131px;
+  height: 24px;
+}
+.highlights-trip .card5 .acard5 .frame81 .title .review .icon {
+  width: 24px;
+  height: 24px;
+  color: orange;
+}
+.highlights-trip .card5 .acard5 .frame81 .title .review .p2 {
+  width: 107px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #b1b5c4;
+}
+
+.destination-trip {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 1440px;
+  height: 500px;
+}
+.destination-trip .title {
+  width: 495px;
+  height: 45px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+}
+.destination-trip .card6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  width: 1475px;
+  height: 324px;
+}
+.destination-trip .card6 .card {
+  width: 850px;
+  height: 324px;
+}
+.destination-trip .card6 .card img {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  border-radius: 15px;
+  width: 90%;
+}
+.destination-trip .card6 .card .note {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 141px;
+  height: 60px;
+}
+.destination-trip .card6 .card .note .name {
+  width: 100%;
+  height: 36px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  position: relative;
+  top: -70px;
+  right: -30px;
+}
+.destination-trip .card6 .card .review {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 141px;
+  height: 24px;
+}
+.destination-trip .card6 .card .review .icon {
+  width: 24px;
+  height: 24px;
+  color: #ffc542;
+}
+.destination-trip .card6 .card .review .cmt {
+  width: 113px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.button1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 250px;
+  height: 54px;
+  background: #3b71fe;
+  border-radius: 30px;
+  position: relative;
+  right: -600px;
+  margin-top: 40px;
+}
+.button1 button {
+  background: transparent;
+  border: none;
+  width: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #f4f5f6;
+  width: 174px;
+  height: 27px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 68px 170px;
+  gap: 10px;
+  width: 1440px;
+  height: 504px;
+  background: #141416;
+  text-decoration: none;
+}
+.footer .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+  width: 1100px;
+  height: 368px;
+}
+.footer .content .footer-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 71px;
+  width: 1100px;
+  height: 304px;
+}
+.footer .content .footer-head .service {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 152px;
+  width: 1070px;
+  height: 232px;
+}
+.footer .content .footer-head .service .left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  width: 268px;
+  height: 231.17px;
+}
+.footer .content .footer-head .service .left .footer-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 120.24px;
+  height: 40.17px;
+}
+.footer .content .footer-head .service .left .footer-search {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 268px;
+  height: 151px;
+}
+.footer .content .footer-head .service .left .footer-search .footer-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 268px;
+  height: 151px;
+  color: #e6e8ec;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.footer .content .footer-head .service .left .footer-search .footer-input {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8px 8px 8px 26px;
+  gap: 10px;
+  width: 253px;
+  height: 49px;
+  border: 2px solid #353945;
+  border-radius: 24px;
+}
+.footer .content .footer-head .service .left .footer-search .footer-input .search-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 62px;
+  width: 219px;
+  height: 33px;
+}
+.footer .content .footer-head .service .left .footer-search .footer-input .search-bar input {
+  width: 124px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #b1b5c4;
+  background: transparent;
+  border: none;
+}
+.footer .content .footer-head .service .left .footer-search .footer-input .search-bar button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 33px;
+  height: 33px;
+  background: #3b71fe;
+  border-radius: 30px;
+}
+.footer .content .footer-head .service .left .footer-search .footer-input .search-bar button .icon {
+  width: 23px;
+  height: 23px;
+  color: #b1b5c4;
+  font-size: x-large;
+}
+.footer .content .footer-head .service .footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 104px;
+  height: 232px;
+}
+.footer .content .footer-head .service .footer-list .footer-list-title {
+  width: 100px;
+  height: 36px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f4f5f6;
+}
+.footer .content .footer-head .service .footer-list .footer-link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 14px;
+  width: 104px;
+  height: 176px;
+  width: 91px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #b1b5c4;
+}
+.footer .content .footer-head .service .empty-box {
+  width: 1100px;
+  height: 1px;
+  background: #353945;
+  position: absolute;
+  bottom: 132px;
+}
+.footer .content .footer-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 621px;
+  width: 1078px;
+  height: 24px;
+}
+.footer .content .footer-bottom p {
+  width: 319px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #b1b5c4;
+}
+.footer .content .footer-bottom .social-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 14px;
+  width: 138px;
+  height: 24px;
+}
+.footer .content .footer-bottom .social-list .social-link {
+  font-size: 24px;
+  color: #777e91;
+}
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,407 @@
+.frame-87 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 1439.24px;
+    height: 1361.17px;
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 28px 40px;
+        gap: 10px;
+        width: 1439.24px;
+        height: 96.17px;
+        background: #23262f;
+        box-shadow: 0px 6px 30px rgba(15, 15, 15, 0.06);
+        .conten {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px;
+            gap: 372px;
+            width: 1359.24px;
+            height: 40.17px;
+            .logo {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0px;
+                position: absolute;
+                gap: 10px;
+                width: 120.24px;
+                height: 40.17px;
+            }
+            .booking {
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: inherit;
+                justify-content: center;
+                align-items: flex-start;
+                padding: 6px 6px 6px 12px;
+                gap: 10px;
+                width: 370px;
+                height: 40px;
+                background: #23262f;
+                border: 1px solid #353945;
+                box-shadow: 0px 12px 64px rgba(0, 0, 0, 0.08);
+                border-radius: 20px;
+                position: absolute;
+                right: 37%;
+                .contet {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 0px;
+                    gap: 23px;
+                    width: 308px;
+                    height: 28px;
+                    p {
+                        height: 15px;
+                        font-family: "Inter";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 15px;
+                        color: #b1b5c4;
+                    }
+                    .empty-box {
+                        width: 1px;
+                        height: 19px;
+                        background: #353945;
+                    }
+                }
+                .icon-circle {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 5px 5px 6px 6px;
+                    gap: 10px;
+                    width: 28px;
+                    height: 28px;
+                    background: #3b71fe;
+                    border-radius: 14px;
+                    color: #ffffff;
+                }
+            }
+            .right {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0px;
+                gap: 15px;
+                width: 169px;
+                height: 32px;
+                position: absolute;
+                right: 30px;
+                .frame-1 {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 0px;
+                    gap: 12px;
+                    width: 106px;
+                    height: 24px;
+                    .empty-box {
+                        width: 1px;
+                        height: 32px;
+                        background: #777e91;
+                        opacity: 0.5;
+                    }
+                    p {
+                        width: 30px;
+                        height: 21px;
+                        font-family: "Inter";
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 21px;
+                        color: #f4f5f9;
+                    }
+                    .icon {
+                        width: 24px;
+                        height: 24px;
+                        color: #f4f5f9;
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 66px;
+        width: 1439px;
+        height: 1265px;
+        .frame-86 {
+            width: 447px;
+            height: 1265px;
+            position: relative;
+            .card1 {
+                position: absolute;
+                width: 740px;
+                height: 237px;
+                left: -100px;
+                top: 620px;
+                .edit-dates {
+                    position: absolute;
+                    z-index: 1;
+                    left: 130px;
+                }
+                .card {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    padding: 35px 88px 35px 34px;
+                    gap: 10px;
+                    position: absolute;
+                    left: 0%;
+                    right: 0%;
+                    top: 0%;
+                    bottom: 54.55%;
+                }
+            }
+            .frame-85 {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0px;
+                gap: 70px;
+                position: absolute;
+                width: 437px;
+                height: 288px;
+                left: 0px;
+                top: 40px;
+                .title1 {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-start;
+                    padding: 0px;
+                    gap: 20px;
+                    width: 437px;
+                    height: 68px;
+                    .icon-title1 {
+                        position: relative;
+                        top: 5px;
+                        font-size: 45px;
+                        color: #ffffff;
+                    }
+                    p {
+                        width: 349px;
+                        height: 60px;
+                        font-family: "Inter";
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 40px;
+                        line-height: 60px;
+                        text-align: center;
+                        letter-spacing: -0.01em;
+                        color: #ffffff;
+                    }
+                }
+                .button1 {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 0px;
+                    gap: 12px;
+                    width: 427px;
+                    height: 40px;
+                    position: relative;
+                    top: -20px;
+                    .abutton {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 10px 15px;
+                        gap: 10px;
+                        width: 70px;
+                        height: 40px;
+                        background: #353945;
+                        border-radius: 6px;
+                        p {
+                            width: 40px;
+                            height: 20px;
+                            font-family: "Inter";
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 20px;
+                            color: #ffffff;
+                        }
+                    }
+                    .bbutton {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 8px 10px;
+                        width: 118px;
+                        height: 40px;
+                        background: #23262f;
+                        border-radius: 6px;
+                        p {
+                            width: 74px;
+                            height: 20px;
+                            font-family: "Inter";
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 20px;
+                            color: #e6e8ec;
+                        }
+                        .icon-bbutton {
+                            width: 24px;
+                            height: 24px;
+                            color: #ffffff;
+                        }
+                    }
+                    .cbutton {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 10px;
+                        gap: 10px;
+                        width: 113px;
+                        height: 40px;
+                        background: #23262f;
+                        border-radius: 6px;
+                        p {
+                            width: 93px;
+                            height: 20px;
+                            font-family: "Inter";
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 20px;
+                            color: #e6e8ec;
+                        }
+                    }
+                    .dbutton {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 10px 13px 10px 14px;
+                        gap: 10px;
+                        width: 90px;
+                        height: 40px;
+                        background: #23262f;
+                        border-radius: 6px;
+                        p {
+                            width: 63px;
+                            height: 20px;
+                            font-family: "Inter";
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 20px;
+                            color: #e6e8ec;
+                        }
+                    }
+                }
+                .button2 {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-start;
+                    padding: 0px;
+                    gap: 12px;
+                    width: 144px;
+                    height: 40px;
+                    position: relative;
+                    top: -20px;
+                    .abutton2 {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 8px 10px;
+                        width: 66px;
+                        height: 40px;
+                        background: #191e2e;
+                        border-radius: 6px;
+                        color: #ffffff;
+                    }
+                    .bbutton2 {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 8px 10px;
+                        width: 66px;
+                        height: 40px;
+                        background: #191e2e;
+                        border-radius: 6px;
+                        color: #ffffff;
+                    }
+                }
+            }
+            .calender {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 0px;
+                gap: 15px;
+                position: absolute;
+                height: 215px;
+                width: 642px;
+                bottom: 100px;
+                left: -105px;
+                top: 1000px;
+            }
+            .card2 {
+                align-items: center;
+                position: absolute;
+                width: 670px;
+                height: 230px;
+                left: -112px;
+                top: 645px;
+            }
+            .card3 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                position: absolute;
+                width: 720px;
+                height: 230px;
+                left: -145px;
+                top: 360px;
+            }
+        }
+        .right {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            width: 791px;
+            height: 1265px;
+            position: relative;
+            top: -27.9px;
+            right: -29px;
+            .map {
+                width: 791px;
+                height: 798px;
+            }
+            .banner {
+                width: 200%;
+                position: relative;
+                left: -80px;
+                top: -50px;
+            }
+        }
+    }
+}
